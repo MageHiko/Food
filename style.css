@@ -368,6 +368,67 @@ section {
   margin-top: 50px;
 }
 
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.card .cardinformation {
+  background: white;
+  padding: 25px 30px;
+  border-radius: 12px;
+  width: 400px;
+  max-width: 95%;
+  position: relative;
+  animation: fadeIn 0.3s ease;
+}
+.card .cardinformation h2 {
+  margin-bottom: 15px;
+  text-align: center;
+  color: #3cc1d8;
+}
+.card .cardinformation label {
+  display: block;
+  margin: 10px 0 5px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #0b0b0b;
+}
+.card .cardinformation input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+.card .cardinformation .submit-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: #3cc1d8;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+.card .cardinformation .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #666;
+}
+
 @media (max-width: 1024px) {
   #menu .textbox {
     width: 400px;
