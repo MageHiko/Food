@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const payment = document.getElementById("card");
   const closeBtn = document.querySelector(".close-btn");
 
-  payment.style.display = "none"; // səhifə yüklənəndə gizli olsun
+  payment.style.display = "none"; 
 
   addButtons.forEach(btn => {
     btn.addEventListener("click", () => {
@@ -26,5 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
+
 
 
