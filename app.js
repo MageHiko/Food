@@ -8,6 +8,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const payment = document.getElementById("card");
   const closeBtn = document.querySelector(".close-btn");
 
+  payment.style.display = "none"; // səhifə yüklənəndə gizli olsun
+
   addButtons.forEach(btn => {
     btn.addEventListener("click", () => {
       payment.style.display = "flex";
@@ -24,4 +26,5 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
 
