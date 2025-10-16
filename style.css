@@ -387,6 +387,7 @@ section {
   max-width: 95%;
   position: relative;
   animation: fadeIn 0.3s ease;
+  display: none;
 }
 .card .cardinformation h2 {
   margin-bottom: 15px;
